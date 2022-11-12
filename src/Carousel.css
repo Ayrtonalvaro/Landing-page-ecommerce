@@ -1,0 +1,26 @@
+.imagenes-container{
+    padding: 10vh;
+}
+
+.imagen-principal img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.imagenes-secundarias{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.imagenes-secundarias img{
+    width: 20%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.imagenes-secundarias img:hover{
+    opacity: 0.4;
+    transform: scale(1.1);
+}

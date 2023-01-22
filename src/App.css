@@ -36,7 +36,7 @@
     color: hsl(219, 9%, 45%)
 }
 
-.button-cart{
+.button-cart-container{
     margin-top: 10px;
     border-radius: 5px;
     border: none;
@@ -45,11 +45,18 @@
     background-color: hsl(26, 100%, 55%);
     color: white;
     font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.button-cart-container p {
+    margin-top: 12px;
 }
 
 .button-cart-container{
     width: 300px;
-    
-
 }
-    
+
+  

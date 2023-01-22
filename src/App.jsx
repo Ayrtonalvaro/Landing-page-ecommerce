@@ -40,7 +40,12 @@ function App() {
               <div className='d-flex align-items-center'>
                 <button className='btn btn-light' onClick={() =>  amount === 0 ? 0 : setAmount(amount - 1)}><img src={minus} /></button><p id="cantidad">{amount}</p><button className='btn btn-light' onClick={() => setAmount(amount + 1)}  ><img src={plus} /></button>
               </div>
-              <div className='button-cart-container'><button className='button-cart' onClick={calcularTotal} ><img src={iconCart} />Add to cart</button></div>
+              <div className='button-cart-container'>
+                <button className='button-cart' onClick={calcularTotal} >
+              
+                  <p className='text-cart'>Add to cart</p>
+                  </button>
+              </div>
             </div>
           </div>
         </div>
